@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-diali-olive: #B2C0B0;
+  --color-diali-sand: #D1C0AA;
+  --color-diali-cream: #F3EFE4;
+  --color-diali-gold: #A78C67;
+  --color-diali-brown: #514841;
+  --color-diali-dark: #2A2521;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-diali-cream);
+  color: var(--color-diali-dark);
+}
