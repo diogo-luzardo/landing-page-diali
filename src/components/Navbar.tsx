@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Menu, X, Instagram, Facebook, Phone } from 'lucide-react';
+import logoDiali from '../assets/logo.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
             className="flex-shrink-0 flex items-center cursor-pointer gap-3"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <img src="/logo.png" alt="Diali Logo" className="hidden md:block h-20 w-auto object-contain" />
+            <img src={logoDiali} alt="Diali Logo" className="hidden md:block h-20 w-auto object-contain" />
             <div className="flex flex-col items-center justify-center pt-1">
               <span className="font-serif text-4xl tracking-widest text-diali-dark leading-none">DIALI</span>
               <span className="font-sans text-[0.65rem] tracking-[0.3em] text-diali-brown uppercase mt-1.5">Estética Avançada</span>
