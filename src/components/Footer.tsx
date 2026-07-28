@@ -67,7 +67,7 @@ export default function Footer() {
               Pronta para lapidar sua beleza natural? Entre em contato via WhatsApp e nossa equipe de concierge irá agendar o seu momento.
             </p>
             <a 
-              href="https://wa.me/5521999999999" 
+              href="https://wa.me/5511959721110"
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center w-full bg-diali-gold text-white px-6 py-4 font-sans text-sm uppercase tracking-widest hover:bg-diali-sand hover:text-diali-dark transition-all duration-300"
