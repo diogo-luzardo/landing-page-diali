@@ -48,7 +48,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-diali-sand flex-shrink-0" />
                 <span className="font-sans text-sm text-diali-sand font-light">
-                  (21) 99999-9999
+                  (11) 95972-1110
                 </span>
               </li>
               <li className="flex items-center gap-3">
