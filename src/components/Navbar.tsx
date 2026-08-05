@@ -16,13 +16,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
           <div 
-            className="flex-shrink-0 flex items-center cursor-pointer gap-3"
+            className="flex-shrink-0 flex items-center cursor-pointer gap-2 sm:gap-3"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <img src={logoDiali} alt="Diali Logo" className="hidden md:block h-20 w-auto object-contain" />
+            <img src={logoDiali} alt="Diali Logo" className="h-12 sm:h-16 md:h-20 w-auto object-contain" />
             <div className="flex flex-col items-center justify-center pt-1">
-              <span className="font-serif text-4xl tracking-widest text-diali-dark leading-none">DIALI</span>
-              <span className="font-sans text-[0.65rem] tracking-[0.3em] text-diali-brown uppercase mt-1.5">Estética Avançada</span>
+              <span className="font-serif text-2xl sm:text-3xl md:text-4xl tracking-widest text-diali-dark leading-none">DIALI</span>
+              <span className="font-sans text-[0.55rem] sm:text-[0.65rem] tracking-[0.25em] sm:tracking-[0.3em] text-diali-brown uppercase mt-1 sm:mt-1.5 whitespace-nowrap">Estética Avançada</span>
             </div>
           </div>
           
