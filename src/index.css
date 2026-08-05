@@ -15,9 +15,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--color-diali-cream);
   color: var(--color-diali-dark);
+  overflow-x: hidden;
 }

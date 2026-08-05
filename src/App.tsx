@@ -14,7 +14,7 @@ import FloatingContacts from './components/FloatingContacts';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-diali-cream selection:bg-diali-gold selection:text-white">
+    <div className="min-h-screen bg-diali-cream selection:bg-diali-gold selection:text-white overflow-x-hidden">
       <Navbar />
       <Hero />
       <Concept />
